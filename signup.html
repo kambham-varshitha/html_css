@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="./login.html">
+        <label>FirstName</label><br>
+        <input type="text"><br><br>
+        <label>LastName</label><br>
+        <input type="text"><br><br>
+        <label>email</label><br>
+        <input type="email"><br><br>
+        <label>password</label><br>
+        <input type="text" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*]).{8,16}"><br><br>
+        <label for="confirm_password">confirm password</label><br>
+        <input type="text" id="confirm_password"><br><br>
+        <label>phone number</label><br>
+        <input type="tel" pattern="[0-9]{10}"><br><br>
+        <input type="submit" value="signup"><br>
+    </form>
+</body>
+</html>

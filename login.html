@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./submit.html">
+        <label for="username">Username:</label><br><br>
+        <input type="text" placeholder="username" pattern="[a-z]+[0-9]+@(yahoo|gmail|outlook)+\.(com|at|gov|env|in|co)"><br><br>
+        <label for="password">password:</label><br><br>
+        <input type="text" placeholder="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*]).{8,16}"><br><br>
+        <a href="./forgot.html">
+            <button type="button">forgot password</button></a><br><br>
+        <input type="submit" value="login">
+        <a href="./signup.html">
+            <button type="button">signup</button></a>
+    </form>
+</body>
+</html>
